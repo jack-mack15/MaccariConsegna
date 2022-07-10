@@ -1,0 +1,33 @@
+sonar.projectKey=jack-mack15_MaccariConsegna
+sonar.projectName=MaccariConsegna
+
+# =====================================================
+#   Meta-data for the project
+# =====================================================
+
+sonar.links.homepage=https://github.com/jack-mack15/MaccariConsegna
+sonar.links.ci=https://travis-ci.org/jack-mack15/MaccariConsegna
+sonar.links.scm=https://github.com/jack-mack15/MaccariConsegna
+sonar.links.issue=https://github.com/jack-mack15/MaccariConsegna/issues
+
+
+# =====================================================
+#   Properties that will be shared amongst all modules
+# =====================================================
+
+sonar.host.url=https://sonarcloud.io
+sonar.organization=jack-mack15-github
+sonar.login=b9140bace4b86e0172a9f4902b903a93c7ec020d
+sonar.sources=src
+sonar.language=java
+
+
+
+# =====================================================
+#   Java config
+# =====================================================
+sonar.java.source=1.8
+sonar.java.binaries=.
+
+# Debug
+sonar.verbose=true
